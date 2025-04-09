@@ -1,3 +1,4 @@
+# Autor: Oliver Gruba
 import argparse
 from cipher import caesar_cipher, affine_cipher
 from crypto_analysis import analyze_with_plaintext, analyze_without_plaintext
