@@ -1,0 +1,1 @@
+# czyta z powyższego pliku i generuje parę kluczy zapisanych w plikach private.txt oraz public.txt. Każdy klucz składa się z dwu wierszy skopiowanych z powyższego pliku oraz trzeciego wiersza zawierającego odpowiednio wykładnik lub potęgę. 

@@ -1,0 +1,2 @@
+# odczytuje klucz publiczny, wiadomość z pliku message.txt oraz podpis z pliku signature.txt i weryfikuje ten podpis.
+# Wynik weryfikacji (T/N) jest wyświetlany na ekranie oraz jest zapisywany w pliku verify.txt. 

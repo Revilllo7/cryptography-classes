@@ -1,0 +1,1 @@
+# odczytuje klucz prywatny i kryptogram, a odszyfrowaną wiadomość zapisuje w pliku decrypt.txt. 
