@@ -17,7 +17,7 @@ def embed_font_tags(cover, bits):
             result = result[:pos] + insert + result[m.end()+offset:]
             offset += len(insert) - (m.end() - m.start())
         else:
-            # po zamknięciu doklej pustą parę
+            # po zamknięciu dodaj pustą parę
             close_tag = "</FONT>"
             pos = result.find(close_tag, m.end()+offset)
             if pos != -1:
@@ -43,4 +43,4 @@ def extract_font_tags(watermarked):
                 i += 6
         else:
             i += 1
-    return bits.rstrip("0")
+    return bits  # remove .rstrip("0")

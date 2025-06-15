@@ -30,4 +30,4 @@ def extract_typo_attributes(watermarked):
             bits += "0"
         elif "lineheight" in tag:
             bits += "1"
-    return bits.rstrip("0")
+    return bits
