@@ -1,0 +1,3 @@
+Przygotuj plik dane.txt zawierający imię, nazwisko i bieżącą datę. 
+Umieść jako rozwiązanie zadania plik tekstowy o nazwie dane.txt.asc 
+zawierający podpisaną przez siebie powyższą wiadomość.

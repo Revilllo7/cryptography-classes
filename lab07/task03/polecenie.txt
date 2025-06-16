@@ -1,0 +1,5 @@
+Zainstaluj klucze publiczne dostępne pod adresem 0x4DB19F11.asc oraz 0x69CD330E.asc. 
+Przygotuj plik zawierający odpowiedź na pytanie do kogo należą powyższe klucze i do 
+kiedy są ważne, plik nazwij crypto.txt. Zaszyfruj ten plik odpowiednim kluczem publicznym 
+(tylko jeden jest sensowny) i umieść jako rozwiązanie zadania. Powinien to być plik tekstowy 
+o nazwie crypto.txt.asc. 

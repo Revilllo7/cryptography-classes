@@ -1,0 +1,2 @@
+W komentarzu do zadania 1 podana będzie zaszyfrowana wiadomość. 
+Odszyfruj ją i jako plik plain.txt jako kolejny plik zadania. 

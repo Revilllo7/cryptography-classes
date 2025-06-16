@@ -1,0 +1,8 @@
+Wygeneruj dla siebie parę kluczy do podpisu i do szyfrowania, 
+klucz powinien zawierać imię, nazwisko, działający email oraz 
+komentarz "laboratorium z kryptografii". Powinien być ważny dość 
+krótko, może tylko ten jeden dzień (UWAGA: klucz powinien być chroniony hasłem, 
+hasło powinno być pamiętane przynajmniej do końca dzisiejszych zajęć). 
+Jako rozwiązanie zadania umieść swój klucz publiczny w wersji tekstowej 
+(preferowana nazwa w formacie 0x...asc, ostatnich osiem cyfr identyfikatora 
+ale w zasadzie każda nazwa jest możliwa). Plik ten nie powinien zawierać innych kluczy.

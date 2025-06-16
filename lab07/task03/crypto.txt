@@ -1,0 +1,7 @@
+klucz: 0x4DB19F11
+należy do: Tadeusz Żeleński
+ważny do: [brak]
+
+klucz: 0x69CD330E
+należy do: Andrzej Borzyszkowski
+ważny do: 2025-07-23

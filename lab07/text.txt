@@ -1,0 +1,22 @@
+Wszystkie operacje PGP można wykonać używając terminala tekstowego. I tak:
+
+    generowanie kluczy: gpg --full-generate-key albo w wersji uproszczonej gpg --gen-key,
+
+    podpisywanie pliku: gpg -s [nazwa pliku],
+    wersja produkująca podpis odrębnie od pliku (przydatna szczególnie przy podpisywaniu plików binarnych, których struktura nie powinna ulec zmianie): gpg -s -b [nazwa pliku],
+    wersja gpg --clear-sign  pozostawia tekst czytelny dla człowieka, jedynie podpis musi być weryfikowany programem, pliki generowane przez GPG są domyślnie w postaci binarnej. Jeśli mają być w postaci tekstowej, trzeba użyć opcji -a,
+
+    eksportowanie własnego klucza publicznego: gpg --export [dane klucza]> [nazwa pliku], opcja eksportu -a  dla postaci tekstowej,
+
+    odszyfrowywanie pliku: gpg [nazwa pliku],
+
+    instalacja cudzych kluczy publicznych: gpg --import [nazwa pliku],
+
+    szyfrowanie: gpg -e [nazwa pliku], opcja  -a dla wersji czysto tekstowej,
+
+    weryfikacja podpisu: gpg [nazwa pliku],
+
+    sprawdzenie posiadanych kluczy: gpg --list-keys, albo gpg --list-secret-keys,
+
+    usunięcie klucza prywatnego: gpg --delete-secret-key name.
+
